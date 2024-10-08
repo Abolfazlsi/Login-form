@@ -1,0 +1,120 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins";
+    background-color: #080710;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input, button{
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
+
+.wrapper {
+    width: 400px;
+    position: relative;
+}
+
+
+.shape {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.shape__1{
+    background: linear-gradient(#0d47a1, #42a5f5);
+    top: -95px;
+    left: -85px;
+}
+.shape__2{
+    background: linear-gradient(216deg ,#e65100, #ffa726);
+    bottom: -80px;
+    right: -90px;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.13);
+    color: #fff;
+    padding: 50px 35px 35px 35px;
+    border: 2px solid rgba(255, 255, 255, 0.13);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+
+}
+
+.form__title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.form__input-wrapper {
+    margin-bottom: 20px;
+}
+
+.form__label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+::placeholder {
+    color: #c6c6c6;
+}
+
+.form__input {
+    font-size: 14px;
+    display: block;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 2px solid rgba(255, 255, 255, 0.07);
+    margin-top: 5px;
+    font-weight: 300;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.form__submit-btn {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+}
